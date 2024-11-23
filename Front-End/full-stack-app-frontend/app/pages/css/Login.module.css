@@ -1,0 +1,60 @@
+.background {
+    background-image: url('../images/kidsPlayStartPage.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .formContainer {
+    background-color: rgba(255, 255, 255, 0.9); /* Make the background a bit more opaque */
+    padding: 40px; /* Increase padding for a larger form */
+    border-radius: 12px; /* Smooth out the corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+    width: 400px; /* Increase width for a bigger form */
+    position: relative; /* Keep form above the blurred background */
+    z-index: 1; /* Ensure form is not affected by the blur */
+ 
+  }
+  
+  .formTitle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px; /* Increase the title font size */
+  }
+  
+  .formGroup {
+    margin-bottom: 20px; /* Increase spacing between form groups */
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 8px; /* Increase space between label and input */
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 12px; /* Increase padding for larger inputs */
+    border-radius: 8px; /* Smooth out input borders */
+    border: 1px solid #ccc;
+    font-size: 16px; /* Slightly larger font */
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Slightly larger button text */
+  }
+  
+  .submitButton:hover {
+    background-color: #005bb5;
+  }
+  
